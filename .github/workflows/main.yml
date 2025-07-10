@@ -31,8 +31,8 @@ jobs:
 
       - name: Setup Git Configuration
         run: |
-          git config user.mail "$byarbyurbyaar@gmail.com"
-          git config user.name "$garakenjs"
+          git config user.mail "byarbyurbyaar@gmail.com"
+          git config user.name "garakenjs"
 
       - name: Update Timestamp File and Set Output
         id: timestamp_update
